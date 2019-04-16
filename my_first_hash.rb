@@ -1,6 +1,6 @@
 def my_hash
   # use the literal constructor to set the variable, my_hash, equal to a hash with key/value pairs of your choice.
-my_hash = {key => "value"}
+my_hash = { "key" => "value"}
   
 end
 
@@ -10,8 +10,8 @@ def shipping_manifest
   # fill that hash with key/value pairs that describe the following information: 
   # We have 5 whale bone corsets, 2 porcelain vases and 3 oil paintings 
 the_manifest = {}
-  the_manifest[muskets] = 2
-  the_manifest[gunpowder] = 4
+  the_manifest["muskets"] = 2
+  the_manifest["gunpowder"] = 4
 
 end
 
@@ -23,7 +23,7 @@ def retrieval
                  }
 
   # Look up the value of the "oil paintings" key in the shipping_manifest hash below
-  shipping_manifest
+  shipping_manifest["oil paintings"]
 
 end
 
