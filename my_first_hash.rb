@@ -14,7 +14,7 @@ shipping_manifest = {
                   "porcelain vases" => 2, 
                   "oil paintings" => 3,
                   "muskets" => 2,
-                  "gun powder"
+                  "gun powder" => 4
                  }
   
 end
